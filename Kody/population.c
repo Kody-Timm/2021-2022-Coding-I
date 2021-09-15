@@ -25,15 +25,14 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
     int years = 0;
     int totalPop = startingSize;
-    do
+    while ( totalPop < endingSize)
     {
         //calculate total pop
         totalPop += (totalPop / 3) - (totalPop / 4);
         years++;
         
     }
-    // while total pop > endingSize
-    while ( totalPop < endingSize);
+    
 
     // TODO: Print number of years
     printf("Years: %i\n", years);
