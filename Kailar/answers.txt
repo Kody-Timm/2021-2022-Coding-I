@@ -1,0 +1,11 @@
+sort1 uses: BubbleSort 
+
+    How do you know?: On the data that was already sorted it performed much faster than SelectionSort.
+
+sort2 uses: MergeSort
+
+    How do you know?: It was the fastest on reversed values.
+
+sort3 uses: SelectionSort
+
+    How do you know?: For both reversed and sorted data its time was about the same.
