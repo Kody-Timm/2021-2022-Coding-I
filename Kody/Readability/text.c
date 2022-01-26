@@ -32,6 +32,9 @@ int main(void)
         i++;
     }
     
+
+    //TEST TIME
+
     // Coleman-Liau Calculation
     float l = (float)letters*100 / words;
     float s = (float)sent*100 / words;
